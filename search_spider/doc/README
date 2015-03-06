@@ -1,0 +1,29 @@
+Preparation:
+	Tools:Python2.7 Selenium Goagent 
+	if not:
+	python & selenium:
+		$sudo apt-get install python
+		$sudo apt-get install python-pip
+		$sudo pip install selenium
+
+	goagent:
+		Download from:https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0CB8QFjAA&url=https%3A%2F%2Fgithub.com%2Fgoagent%2Fgoagent&ei=ASK_VKzbDo7hoATSjYLgCQ&usg=AFQjCNF0W-F3YMRhe-PC1sUtLL68bgIvqw&sig2=LQrEjRtKCjm3ZC9CYvExzw
+
+Functions:
+	There are two main function:
+
+	def get_baidu_search(str):
+	&
+	def get_google_search(str):
+
+	both of them will return the result after searching the key word 'str'
+	Result type:
+		class SearchResult():
+			title=''	
+			link=''
+			content='' 
+
+
+To run:
+	In China,you can use the function get_baidu_search() directly.
+	But you must run goagent or other http proxy first before use function get_google_search().

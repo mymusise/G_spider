@@ -1,0 +1,14 @@
+Introduction:
+	This programe is used to get the news from 'Sina_News'
+
+Preparation:
+	Tools:Python2.7 Selenium  
+	if not:
+		$sudo apt-get install python
+		$sudo apt-get install python-pip
+		$sudo pip install selenium
+
+To run:
+	You can just edit the time in ~/src/progress.data,and run:
+	$python ~/src/get.py
+	Then it will create a file in ~/data/ which store all news infomation you want
